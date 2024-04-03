@@ -91,7 +91,7 @@ const env2: { [k in Env]: EnvConfig } = {
         ClosePriceNeedFix: true,
       },
     },
-    TokenIcon: 'https://static.fufuture.io/token-icon.json',
+    TokenIcon: 'https://deepex.io/static/token-icon.json',
     Logo: {
       Web: { url: deepLight, size: { w: 100, h: 30 } },
       WebDark: { url: deepDark, size: { w: 100, h: 30 } },

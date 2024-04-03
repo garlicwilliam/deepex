@@ -1,0 +1,25 @@
+import { RpcEvent, RpcMethod, WalletConnectOps, WcChainId } from '../../../constant/walletconnect';
+import { NET_BNB } from '../../../constant/network';
+
+export const ops: WalletConnectOps = {
+  initProviderOps: {
+    projectId: '4473e1279621240809d6ecaf56415dbb',
+    metadata: {
+      name: 'DeepEx',
+      url: 'https://deepex.io',
+      description: '',
+      icons: [],
+    },
+  },
+  defaultChain: WcChainId[NET_BNB] as string,
+  connectOps: {
+    namespaces: {
+      eip155: {
+        chains: [WcChainId[NET_BNB]] as string[],
+        defaultChain: WcChainId[NET_BNB],
+        methods: RpcMethod,
+        events: RpcEvent,
+      },
+    },
+  },
+};

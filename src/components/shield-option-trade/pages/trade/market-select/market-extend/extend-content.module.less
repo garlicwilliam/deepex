@@ -1,0 +1,47 @@
+@import '../../../../../shield-option-common/common';
+
+.wrapperExt {
+  width: 100%;
+  height: 100%;
+
+  .menus {
+    display: flex;
+    column-gap: 40px;
+    border-bottom: 1px solid @color-divider;
+
+    .tabTitle {
+      .flexCenter();
+      .font(14, @color-desc);
+      column-gap: 4px;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 2px solid transparent;
+      height: 50px;
+
+      &.active {
+        .font(14, @color-normal-font);
+        border-color: @color-highlight;
+      }
+    }
+  }
+
+  .prefix {
+    height: 100%;
+    .flexCenter();
+    padding: 0 4px 0 10px;
+    font-size: 20px;
+  }
+
+  .suffix {
+    height: 100%;
+    .flexCenter();
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    color: @color-desc;
+    cursor: pointer;
+
+    &:hover {
+      color: @color-normal-font;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import '../../../shield-option-common/common';
+
+.wrapperLabel {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+
+  &.left {
+    justify-content: flex-start;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.right {
+    justify-content: flex-end;
+  }
+
+  .icon {
+    border-radius: 50%;
+  }
+
+  .name {
+    color: @color-normal-font;
+  }
+
+  .copy {
+    .flexCenter();
+    font-size: 14px;
+    color: @color-desc;
+    cursor: pointer;
+
+    &:hover {
+      color: @color-normal-font;
+    }
+
+    .icon {
+      .flexCenter();
+    }
+  }
+}

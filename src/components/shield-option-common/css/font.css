@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Gilroy-Black;
+  src: url('src/assets/fonts/gilroy/gilroy_black.otf');
+}
+
+@font-face {
+  font-family: Gilroy-BlackItalic;
+  src: url('src/assets/fonts/gilroy/gilroy_blackitalic.otf');
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url('src/assets/fonts/gilroy/gilroy_bold.otf');
+}
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url('src/assets/fonts/gilroy/gilroy_regular.otf');
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url('src/assets/fonts/gilroy/gilroy_medium.otf');
+}
+
+@font-face {
+  font-family: Gilroy-Light;
+  src: url('src/assets/fonts/gilroy/gilroy_light.otf');
+}
+
+@font-face {
+  font-family: Gilroy-LightItalic;
+  src: url('src/assets/fonts/gilroy/gilroy_lightitalic.otf');
+}
+
+@font-face {
+  font-family: Gilroy-Thin;
+  src: url('src/assets/fonts/gilroy/gilroy_thin.otf');
+}
+
+@font-face {
+  font-family: Gilroy-ThinItalic;
+  src: url('src/assets/fonts/gilroy/gilroy_thinitalic.otf');
+}
+
+@font-face {
+  font-family: Gilroy-Heavy;
+  src: url('src/assets/fonts/gilroy/gilroy_heavy.otf');
+}
+
+@font-face {
+  font-family: Gilroy-HeavyItalic;
+  src: url('src/assets/fonts/gilroy/gilroy_heavyitalic.otf');
+}
+
+@font-face {
+  font-family: Gilroy-ExtraBold;
+  src: url('src/assets/fonts/gilroy/gilroy_extrabold.otf');
+}
+
+@font-face {
+  font-family: Gilroy-ExtraBoldItalic;
+  src: url('src/assets/fonts/gilroy/gilroy_extrabolditalic.otf');
+}
